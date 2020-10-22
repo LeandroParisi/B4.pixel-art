@@ -1,0 +1,36 @@
+.color{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    /* pq o display inline não funciona e some com os elementos? */
+    border-width: 1px;
+    border-color: rgb(0,0,0);
+    border-style: solid;
+}
+
+/* .selected{
+    border-radius: 50%;
+    border-style: outset;
+} */
+
+.controls{
+    width: 100%;
+}
+
+.controls-content{
+    position: relative;
+    width: 50%;
+    margin: 2% 2% 2% 2%;
+    
+}
+
+.pixel {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    border-color: rgb(0,0,0);
+    border-style: solid;
+    background-color: rgb(255,255,255);
+}
